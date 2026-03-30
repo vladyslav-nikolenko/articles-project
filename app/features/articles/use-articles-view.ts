@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import type { Article } from "~/types";
-import { articles as mockedArticles } from "~/consts";
+import type { Article } from "./types";
+import { articles as mockedArticles } from "~/features/articles/consts";
 
 import { SortOrder } from "./types";
 

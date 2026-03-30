@@ -10,7 +10,7 @@ import {
   TextField,
 } from "@mui/material";
 import type { SelectChangeEvent } from "@mui/material/Select";
-import { TOPICS } from "~/consts";
+import { TOPICS } from "~/features/articles/consts";
 import { SortOrder } from "../types";
 
 type ArticleToolbarProps = {

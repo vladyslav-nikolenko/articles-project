@@ -6,7 +6,7 @@ import {
   CardHeader,
   Typography,
 } from "@mui/material";
-import type { Article } from "~/types";
+import type { Article } from "../types";
 
 type ArticleCardProps = Pick<Article, "title" | "topic" | "publishedAt">;
 
